@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    
+    <main class="main__container">
+        <header class="cabecalho">
+            <img src="./assets/LogoAlura.png" alt="Logo Alura">
+        </header>
+
+       
+        <div class="container__input">
+
+            <div class="input">
+              
+                    <textarea id="input__texto"  placeholder="Digite seu texto: "></textarea>
+               
+                    <div class="div__maiusculas">
+                        <img class="img__input" src="./assets/img_exclamacao.png">
+                        <p>Apenas letras minusculas e sem acento.</p>
+                    </div>
+                        
+                            <div class="container__botoes">
+                                <button onclick="criptografar()" class="criptografar" >Criptografar</button>
+                                <button onclick="descriptografar()" class="descriptografar"> Descriptografar</button>
+                                <button onclick="copiar()" class="copiar"> Copiar</button>
+                            </div>
+                    
+            </div>
+
+            <div id="output">
+                <img src="./assets/nomsg.png" alt="logo sem mensagem.">
+                <h2> Nenhuma mensagem encontrada</h2>
+                <span>Digite um texto que voce deseja criptogragar ou descriptografar.</span>
+                
+            </div>
+        </div>
+    
+        
+
+
+    </main>
+
+    <footer class="rodape">
+        <img class="rodape__img" src="./assets/moeda girando.gif">
+        <h3>Desenvolvido por Willian  Junio.</h3>
+    </footer>
+
+    <script src="./cripto.js"></script>
+</body>
+
+
+</html>

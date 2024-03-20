@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --corprincipal: #ebc999;
+    --coroutput: #e7dac7;
+    --cortextoinput: #4d3227;
+}
+
+body{
+    background-color: var(--corprincipal);
+        
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.cabecalho{
+    display: flex;
+    justify-content:space-between;
+    padding: 1% ;
+
+}
+
+.cabecalho img{
+
+    max-width: 700px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+
+}
+
+.container__input{
+    display: flex;
+    justify-content:space-between;
+    align-self: center;
+    padding: 1% 5% 1% 5%;
+    max-width: auto;
+    max-height: auto;
+    
+    
+  
+
+
+}
+
+.container__input .input{
+
+
+    width: 680px;
+    height: 48px;
+    justify-content: center;
+    flex-direction: column;
+ 
+   
+  
+    
+   
+}
+
+#input__texto{
+    display: flex;
+    width: 600px;
+    height: 374px;
+    font-size: 32px;
+    color: var(--cortextoinput);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 1%;
+    
+}
+
+.div__maiusculas{
+
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.img__input{
+   height: 12px;
+   width: 12px;
+}
+
+#output{
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    border-radius: 32px;
+    width: 680px;
+    height: 550px;    
+    background-color: var(--coroutput);
+   
+   
+  
+}
+
+
+
+#output h2{
+    
+   
+    text-align: center;
+    font-size: 24px;
+    color: var(--cortextoinput);
+    font-weight: 700;
+    line-height: 28.8px;
+}
+
+#output span{
+    
+    font-size: 16px;
+    text-align: center;
+    color: var(--cortextoinput);
+    line-height: 24px;
+
+}
+
+#output img{
+    
+    align-self: center;
+    width: auto;
+    height: auto;
+    
+
+
+}
+
+.container__botoes{
+
+    display: flex;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content:flex-start;        
+    gap: 12px;
+}
+
+.criptografar{
+    border: 0px solid ;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: var(--cortextoinput);
+    width: 180px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    cursor: pointer;
+
+
+}
+
+.descriptografar{
+    border: 0px solid var(--cortextoinput);
+    color: #ffffff;
+    background-color: var(--cortextoinput);
+    width: 180px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    cursor: pointer;
+   
+}
+
+.copiar{
+    border: 0px solid ;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: var(--cortextoinput);
+    width: 180px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    cursor: pointer;
+}
+
+
+
+.rodape{
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+    justify-content: center;
+    background-color: var(--corprincipal);
+    color: var(--cortextoinput);
+    padding: 1.3%;
+
+}
+
+.rodape__img{
+
+    width: 15x;
+    height: 15px;
+
+}
+
+.rodape h3{
+    font-size: 12px;
+
+}
+
+
+@media screen and (max-width: 768px){
+
+ 
+    .main__container{
+        display: grid;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0%;
+        
+    }
+
+   
+
+    .container__input{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 640px;
+        padding: 0%;
+    }
+
+    .div__maiusculas{
+        justify-content: center;
+    }
+
+
+    .container__botoes{
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape{
+
+        justify-content: center;
+      
+    }  
+
+    #input__texto{
+
+       text-align: center;    
+
+}
+}
+
+
+
+
+    
+  
+
+    
+
+
+
+
+
+
+
+
